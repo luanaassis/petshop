@@ -21,6 +21,7 @@ Os arquivos foram organizados da seguinte forma:
 - No canil  "Meu Canino Feliz", o aumento do final de semana é de 20% em cada um dos banhos;
 - Todos os canis, e suas informações, já estão pré-estabelecidas e previamente criadas, sem a necessidade de informação por parte do usuário.
 - Todas as distâncias foram passadas para a mesma unidade de medida, em KM.
+- A data inserida deve ser no padrão utilizado no Brasil, data/mês/ano (dd/mm/yy).
 
 ## Classes e Métodos
 
@@ -33,6 +34,9 @@ Classe que contém o main, e realiza a tratativa e manipulação das informaçõ
 - `verificaFinalDeSemana`: é um método booleano que verifica se o dia informado é correspondente à sábado ou domingo, e caso sim, retorna true. Caso contrário, retorna falso.
 - `custoBeneficioPetshop`: este método que recebe como parâmetro uma lista com os objetos "Petshop", e verifica entre eles qual possui o preço final menor. Caso tenham preços finais iguais, verifica qual Petshop possui a menor distância do canil. O Petshop que melhor atender aos requisitos, tem seu nome e seu preço final retornados como um print no console para o cliente.
 - `main`: no método main, todas as instâncias são criadas, assim como uma lista contendo os objetos, que posteriormente, será usado para manipulação. O ArrayList foi criado para facilitar as verificações, sem perder a referência aos objetos. Neste método, a entrada é tratada e o main chama o método setPrecoFinal, da classe Petshop, e o custoBeneficioPetshop, que está contido na mesma classe.
+
+## Decisões de projeto
+Para solucinar a situação, foi criada a classe Petshop para instaciar e manipular as características que devem ser armazenadas de cada petshop. Além disso, no main, as funções de verificar se é final de semana e de analisar o custo benefício entre os petshops, foram modularizadas para facilitação de manutenção do código.
 
 ## Instruções para compilação e execução
 
