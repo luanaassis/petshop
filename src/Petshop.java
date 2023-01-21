@@ -1,5 +1,3 @@
-package com.mycompany.testepratico;
-
 public class Petshop {
     private String nome;
     private double distancia;
