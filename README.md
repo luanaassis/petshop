@@ -24,9 +24,11 @@ Os arquivos foram organizados da seguinte forma:
 
 ## Classes e Métodos
 
-### Petshop: Classe responsável por organizar e manipular o preço final a ser pago de acordo com o parâmetro relacionado à data. Nesta classe, estão contidos métodos como o constrututor, getters e setters
+### Petshop: 
+Classe responsável por organizar e manipular o preço final a ser pago de acordo com o parâmetro relacionado à data. Nesta classe, estão contidos métodos como o constrututor, getters e setters
 
-### TestePratico: Classe que contém o main, e realiza a tratativa e manipulação das informações de entrada, e efetua as principais verificações relacionadas aos critérios
+### TestePratico:
+Classe que contém o main, e realiza a tratativa e manipulação das informações de entrada, e efetua as principais verificações relacionadas aos critérios
 
 - `verificaFinalDeSemana`: é um método booleano que verifica se o dia informado é correspondente à sábado ou domingo, e caso sim, retorna true. Caso contrário, retorna falso.
 - `custoBeneficioPetshop`: este método que recebe como parâmetro uma lista com os objetos "Petshop", e verifica entre eles qual possui o preço final menor. Caso tenham preços finais iguais, verifica qual Petshop possui a menor distância do canil. O Petshop que melhor atender aos requisitos, tem seu nome e seu preço final retornados como um print no console para o cliente.
